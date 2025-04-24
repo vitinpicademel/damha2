@@ -1,9 +1,5 @@
 'use client'
 
-<<<<<<< HEAD
-import React from 'react'
-=======
->>>>>>> c066f610c68a3167bc59713f866782e719656391
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -261,120 +257,6 @@ export default function Home() {
       </section>
 
       {/* Diferenciais */}
-<<<<<<< HEAD
-      <section id="diferenciais" className="bg-[#1B5E20] relative overflow-hidden py-24">
-        <div className="container mx-auto px-4 relative z-10">
-          {/* Título e Subtítulo */}
-          <div className="max-w-3xl">
-            <h2 className="text-4xl text-white font-bold mb-6">
-              O Lugar onde lazer e conforto são prioridades
-            </h2>
-            <p className="text-white/90 text-lg leading-relaxed mb-16">
-              No Damha Fit Uberaba, o lazer é completo e pensado para transformar sua rotina. Piscinas, 
-              quadras esportivas, academia equipada e espaços gourmet oferecem momentos únicos 
-              para todas as idades. Seja relaxando, cuidando da saúde ou celebrando, você aproveita o 
-              melhor da vida sem sair de casa, com a segurança e a privacidade que você merece.
-            </p>
-          </div>
-
-          {/* Grid de Diferenciais */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Centro de Convívio */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-              <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-[#1B5E20]" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 5.5A2.5 2.5 0 0114.5 8a2.5 2.5 0 01-2.5 2.5A2.5 2.5 0 019.5 8 2.5 2.5 0 0112 5.5M12 2a6 6 0 016 6c0 4.5-6 11-6 11S6 12.5 6 8a6 6 0 016-6m0 2a4 4 0 00-4 4c0 2.9 4 8 4 8s4-5.1 4-8a4 4 0 00-4-4z"/>
-                </svg>
-              </div>
-              <h3 className="text-white text-xl font-semibold mb-2">Centro de Convívio</h3>
-            </div>
-
-            {/* Quadra Poliesportiva */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-              <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-[#1B5E20]" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                </svg>
-              </div>
-              <h3 className="text-white text-xl font-semibold mb-2">Quadra Poliesportiva</h3>
-            </div>
-
-            {/* Mini Campo */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-              <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-[#1B5E20]" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                </svg>
-              </div>
-              <h3 className="text-white text-xl font-semibold mb-2">Mini Campo</h3>
-            </div>
-
-            {/* Quadra de Tênis Saibro */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-              <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-[#1B5E20]" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                </svg>
-              </div>
-              <h3 className="text-white text-xl font-semibold mb-2">Quadra de Tênis Saibro</h3>
-            </div>
-
-            {/* Beach Tênis */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-              <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-[#1B5E20]" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                </svg>
-              </div>
-              <h3 className="text-white text-xl font-semibold mb-2">Beach Tênis</h3>
-            </div>
-
-            {/* Quadra de Vôlei */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-              <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-[#1B5E20]" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                </svg>
-              </div>
-              <h3 className="text-white text-xl font-semibold mb-2">Quadra de Vôlei</h3>
-            </div>
-
-            {/* Playground */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-              <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-[#1B5E20]" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                </svg>
-              </div>
-              <h3 className="text-white text-xl font-semibold mb-2">Playground</h3>
-            </div>
-
-            {/* Churrasqueira */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-              <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-[#1B5E20]" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                </svg>
-              </div>
-              <h3 className="text-white text-xl font-semibold mb-2">Churrasqueira</h3>
-            </div>
-
-            {/* Espaço Pet */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-              <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-[#1B5E20]" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                </svg>
-              </div>
-              <h3 className="text-white text-xl font-semibold mb-2">Espaço Pet</h3>
-            </div>
-          </div>
-        </div>
-
-        {/* Elementos decorativos de fundo */}
-        <div className="absolute top-0 left-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 -translate-x-1/2"></div>
-        <div className="absolute bottom-0 right-0 w-64 h-64 bg-white/5 rounded-full translate-y-1/2 translate-x-1/2"></div>
-=======
       <section id="diferenciais" className="bg-[#1B4538] relative overflow-hidden">
         <div className="container mx-auto px-4 py-24">
           <div className="flex flex-col lg:flex-row items-start gap-16">
@@ -491,7 +373,6 @@ export default function Home() {
             </div>
           </div>
         </div>
->>>>>>> c066f610c68a3167bc59713f866782e719656391
       </section>
 
       {/* Imagens e Vídeos */}
